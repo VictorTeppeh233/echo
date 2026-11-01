@@ -1,0 +1,25 @@
+# Local Data & Vector Stores
+data/database/*.db
+data/chroma/
+data/documents/*
+!data/documents/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# OS & Secrets
+.DS_Store
+.env
+*.log
